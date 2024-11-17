@@ -1,0 +1,6 @@
+export type * from "./src/interface/constuctor.interface.ts"
+export type * from "./src/interface/db.interface.ts"
+export type * from "./src/interface/ifs.interface.ts"
+export type * from "./src/interface/json.interface.ts"
+export type * from "./src/interface/libs.interface.ts"
+export type * from "./src/interface/store.interface.ts"

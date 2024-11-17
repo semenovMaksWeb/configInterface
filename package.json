@@ -1,0 +1,10 @@
+{
+  "name": "configinterface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
