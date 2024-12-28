@@ -1,4 +1,4 @@
-export enum ConnectionDB {
+export const enum ConnectionDB {
     POSTGRE_SQL = "PostgreSQL",
     MYSQL = "MySql"
 }

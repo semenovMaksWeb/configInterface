@@ -2,7 +2,6 @@ export * from "./src/interface/constuctor.interface"
 export type { CommandResultOperator } from "./src/interface/constuctor.interface"
 
 export * from "./src/interface/db.interface"
-export type { ConnectionDB } from "./src/interface/db.interface"
 
 export * from "./src/interface/ifs.interface"
 export type * from "./src/interface/json.interface.ts"
