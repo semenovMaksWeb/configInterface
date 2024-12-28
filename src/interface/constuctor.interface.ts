@@ -2,7 +2,7 @@ import { IfsRunConfig } from "./ifs.interface";
 import { JsonMappingSchema } from "./json.interface";
 import { StoreConfig, StoreConfigElement } from "./store.interface"
 
-export enum CommandAction {
+export const enum CommandAction {
     CONNECTION_DATABASE = "connectionDatabase", // подключение к бд
     SQL_CALL = "sql", // вызов sql
 
@@ -36,7 +36,7 @@ export enum CommandAction {
 export type ConstuctorBody = { [key: string]: any }
 
 
-export enum CommandResultOperator {
+export const enum CommandResultOperator {
     PUSH = "push",
     EQUALLY = "=",
     NULL = "null",

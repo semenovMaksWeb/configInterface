@@ -1,4 +1,4 @@
-export enum TypeVarEnum {
+export const enum TypeVarEnum {
     boolean = "boolean",
     string = "string",
     number = "number",

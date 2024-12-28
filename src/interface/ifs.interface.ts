@@ -1,6 +1,6 @@
 import { StoreConfigElement } from "./store.interface";
 
-export enum ifsOperator {
+export const enum ifsOperator {
     "==" = "==",
     ">" = ">",
     "<" = "<",
