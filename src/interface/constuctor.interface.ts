@@ -31,6 +31,7 @@ export const enum CommandAction {
     WEB_OPEN = "webOpen", // открыть браузер определенную страницу
     WEB_ELEMENT_CLICK = "webElementClick", // в браузере нажать на dom-element
     WEB_ELEMENT_INNER_HTML = "webGetInnerHTML", // в браузере получить html
+    AXIOS_HTTP = "axiosHttp" // запрос по http
 }
 
 export type ConstuctorBody = { [key: string]: any }
