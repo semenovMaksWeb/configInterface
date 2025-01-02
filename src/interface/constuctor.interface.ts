@@ -179,4 +179,14 @@ export interface CommandWebGetInnerHTML extends Command {
         page: StoreConfigElement,
         selector: StoreConfigElement
     }
+}
+
+export interface CommandAxios extends Command {
+    params: {
+        url: StoreConfigElement,
+        type: StoreConfigElement,
+        params?: StoreConfig[],
+        headers?: StoreConfig[],
+        data?: StoreConfig[],
+    }
 } 
